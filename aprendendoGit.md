@@ -54,6 +54,11 @@ parecido com o comando CD para mudar de repositório, nesse caso mudando de bran
 
 ### Comandos rápidos:
 git add "arquivo"
+
 git status
+
 git commit -m "descrição commit"
+
 git push -u origin main
+
+git add "arquivo" && git status && git commit -m "descrição commit" && git push -u origin main
