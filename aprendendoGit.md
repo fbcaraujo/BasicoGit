@@ -61,4 +61,5 @@ git commit -m "descrição commit"
 
 git push -u origin main
 
+### Comandos concatenando:
 git add "arquivo" && git status && git commit -m "descrição commit" && git push -u origin main
