@@ -34,14 +34,14 @@ informa situação dos arquivos na área de staging
 git commit -m "descrição commit"
 salvar as alterações do arquivo no repositório local do Git
 
+git reset
+desfaz um commit
+
 git branch -M "main"
 modifica nome da Branch Master para Branch Main
 
 git remote add origin https://github.com/brunodsh/BasicoGit.git
 vincular o repositório local com o remoto
-
-git reset
-desfaz um commit
 
 git checkout -b "modelar"
 criar uma nova branch / ramificação no repositório atual
