@@ -43,6 +43,9 @@ modifica nome da Branch Master para Branch Main
 git remote add origin https://github.com/brunodsh/BasicoGit.git
 vincular o repositório local com o remoto
 
+git push -u origin main
+enviar alterações do repositório atual para o remoto
+
 git checkout -b "modelar"
 criar uma nova branch / ramificação no repositório atual
 
