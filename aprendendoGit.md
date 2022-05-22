@@ -1,4 +1,4 @@
-##### Conceitos:
+### Conceitos:
 Repositórios => repositórios = Pastas = Projetos = Arquivos versionados.
 
 Branch => Ramificações da linha principal (Main) das versões, podem ter várias ramificações, uma cada nova funcionalidade atribuída, também para um projeto com várias pessoas, e no qual vão testando as opções, definindo podem passar a principal. Branch Master ou mais atual Branch Main, é o que cria o tempo cronológico principal.
@@ -15,14 +15,14 @@ Pull => ocorre quando é necessário puxar as alterações realizadas por outros
 
 README.md arquivo com extensão de Markdown para gerar informações fora das linhas de código, em geral é uma instrução de como proceder com os códigos e informações gerais.
 
-##### Comandos:
+### Comandos:
 git --version
 versão
 
 git init
 iniciar repositório corrente, somente na primeira vez
 
-git add README.md
+git add "arquivo"
 enviar do repositório local para a área de staging arquivos especificos
 
 git add .
@@ -52,3 +52,8 @@ criar uma nova branch / ramificação no repositório atual
 git checkout main / modelar
 parecido com o comando CD para mudar de repositório, nesse caso mudando de branch
 
+### Comandos rápidos:
+git add "arquivo"
+git status
+git commit -m "descrição commit"
+git push -u origin main
