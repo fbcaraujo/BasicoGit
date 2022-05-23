@@ -63,3 +63,25 @@ git push -u origin main
 
 ### Comandos concatenando:
 git add "arquivo" && git status && git commit -m "descrição commit" && git push -u origin main
+
+### Commit branch secundária:
+git checkout modelar
+
+git add aprendendoGit.md
+
+git status
+
+git commit -m "descrição do commit"
+
+git push origin modelar
+
+### Merge da branch secundária para a main:
+git checkout main
+
+git merge modelar
+
+git push origin main
+
+### Observações:
+1. O parâmetro -u depois do "git push" só é necessário quando executar a primeira vez de um arquivo
+2.
