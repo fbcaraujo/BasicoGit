@@ -82,6 +82,9 @@ git merge modelar
 
 git push origin main
 
+### Clonar repositório de outro usuário git:
+git clone https://github.com/rafaballerini/GitTutorial.git
+
 ### Observações:
 1. O parâmetro -u depois do "git push" só é necessário quando executar a primeira vez de um arquivo
-2.
+2. O clone de repositório foi realizado no git da rafaballerini
