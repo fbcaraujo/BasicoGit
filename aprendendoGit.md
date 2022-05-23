@@ -49,6 +49,9 @@ enviar alterações do repositório atual para o remoto
 git checkout -b "modelar"
 criar uma nova branch / ramificação no repositório atual
 
+git branch "modelar"
+criar uma nova branch / ramificação no repositório atual
+
 git checkout main / modelar
 parecido com o comando CD para mudar de repositório, nesse caso mudando de branch
 
