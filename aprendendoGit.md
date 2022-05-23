@@ -97,3 +97,5 @@ git pull
 ### Observações:
 1. O parâmetro -u depois do "git push" só é necessário quando executar a primeira vez de um arquivo
 2. O clone de repositório foi realizado no git da rafaballerini
+3. Após um fork de um repositório de outro usuário, é possível sugerir alteração, com o pull request
+4. 
