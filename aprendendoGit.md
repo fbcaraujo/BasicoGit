@@ -52,6 +52,12 @@ criar uma nova branch / ramificação no repositório atual
 git checkout main / modelar
 parecido com o comando CD para mudar de repositório, nesse caso mudando de branch
 
+git clone https://github.com/rafaballerini/GitTutorial.git
+clonar repositório de outro usuário
+
+git pull (dentro do diretório clonado)
+atualizar as alterações realizadas no diretório clonado
+
 ### Comandos rápidos:
 git add "arquivo"
 
@@ -84,6 +90,9 @@ git push origin main
 
 ### Clonar repositório de outro usuário git:
 git clone https://github.com/rafaballerini/GitTutorial.git
+
+### Atualizar repositório clonado de outro usuário git:
+git pull
 
 ### Observações:
 1. O parâmetro -u depois do "git push" só é necessário quando executar a primeira vez de um arquivo
