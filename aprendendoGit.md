@@ -15,6 +15,24 @@ Pull => ocorre quando é necessário puxar as alterações realizadas por outros
 
 README.md arquivo com extensão de Markdown para gerar informações fora das linhas de código, em geral é uma instrução de como proceder com os códigos e informações gerais.
 
+### Configurações iniciais:
+git config --global user.name "John Doe"
+
+git config --global user.email johndoe@example.com
+
+git config –system core.longpaths true
+gerenciar arquivos grandes
+
+git config –list
+listar as configurações
+
+### Help:
+git help {comando}
+
+git {comando} --help
+
+man git- {comando}
+
 ### Comandos:
 git --version
 versão
