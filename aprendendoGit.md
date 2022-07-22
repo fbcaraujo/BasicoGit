@@ -61,7 +61,7 @@ modifica nome da Branch Master para Branch Main
 git remote add origin https://github.com/brunodsh/BasicoGit.git
 vincular o repositório local com o remoto
 
-git push -u origin main
+git push -u origin "main"
 enviar alterações do repositório atual para o remoto
 
 git checkout -b "modelar"
@@ -116,7 +116,7 @@ git clone https://github.com/rafaballerini/GitTutorial.git
 git pull
 
 ### Observações:
-1. O parâmetro -u depois do "git push" só é necessário quando executar a primeira vez de um arquivo
+1. O parâmetro -u "main" depois do "git push" só é necessário quando executar a primeira vez de um arquivo
 2. O clone de repositório foi realizado no git da rafaballerini
 3. Após um fork de um repositório de outro usuário, é possível sugerir alteração, com o pull request
 4. 
